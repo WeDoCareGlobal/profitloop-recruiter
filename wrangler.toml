@@ -1,0 +1,29 @@
+name = "recruiter"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+account_id = "817fe8993c0fbc396e9e988174a9ac6a"
+
+workers_dev = true
+
+[ai]
+binding = "AI"
+
+[vars]
+# test-mode publishable key (safe to expose; the secret key lives in wrangler secrets)
+STRIPE_PUB_KEY = "pk_test_51UMFFQL5z3Wp7a3NjPdghRZleBp6lAlm7GSyTkrstkQqDKeIqelEo3dMhyti3a69yi61sbs99H8u0pTfcAWXIp6K00aCDTNUI9"
+STRIPE_TEST_MODE = "true"
+LOOP_NAME = "recruiter"
+ENVIRONMENT = "production"
+# base model deprecated 2026-05-30; -fast variant stays active on Free plan
+# Free-plan blocked: @cf/moonshotai/kimi-k2.6, @cf/zai-org/glm-5.3-flash
+AI_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "df3a8c01bb7242ae9977e204c9a699be"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pharma-intelligence-db"
+database_id = "beff1662-453d-48cf-a00c-d5f4e8fff4eb"

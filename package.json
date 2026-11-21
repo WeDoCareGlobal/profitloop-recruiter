@@ -1,0 +1,14 @@
+{
+  "name": "profitloop-recruiter",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Placement engine: job intake -> candidate screening -> interview -> placement with fee tracking.",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
