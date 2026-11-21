@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Perla"
+    given-names: "Emir"
+    orcid: "0009-0009-8515-2727"
+title: "ProfitLoop Recruiter"
+version: 1.0.0
+date-released: "2026-11-21"
+doi: ""
+url: "https://github.com/WeDoCareGlobal/recruiter"
+contact:
+  - email: "emirperla96@gmail.com"
+    name: "Emir Perla"
+keywords:
+  - "AI"
+  - "agent"
+  - "shopify"
+  - "automation"
+  - "governance"
+license: "Apache-2.0"
+repository-code: "https://github.com/WeDoCareGlobal/recruiter"

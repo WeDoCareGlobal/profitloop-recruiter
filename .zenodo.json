@@ -1,0 +1,8 @@
+{
+  "title": "ProfitLoop Recruiter",
+  "description": "ProfitLoop Recruiter - AI micro-SaaS tool for recruiter",
+  "creators": [{"name": "Emir Perla", "affiliation": "We Do Care Global", "orcid": "0009-0009-8515-2727"}],
+  "license": "Apache-2.0",
+  "keywords": ["AI", "agent", "shopify", "automation", "security", "governance"],
+  "related_identifiers": [{"identifier": "https://wedocare-global.com", "relation": "isPartOf"}]
+}
